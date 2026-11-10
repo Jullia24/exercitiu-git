@@ -11,7 +11,7 @@ def proceseaza(tinte, prag):
     print(f"Tinte citite: {len(tinte)}")
     
     # Greșeală: nume greșit de variabilă (NameError)
-    for t in tint:
+    for t in tinte:
         port_str = t.get("port")
         try:
             port = int(port_str)
