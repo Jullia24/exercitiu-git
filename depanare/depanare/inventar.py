@@ -20,7 +20,7 @@ def proceseaza(tinte, prag):
             continue
             
         # Greșeală: concatenare de tip invalid (TypeError)
-        serviciu = t["serviciu"] + ": " + port
+        serviciu = t["serviciu"] + ": " + str(port)
         
         if port > prag:
             rezultat.append(t["ip"])
